@@ -236,8 +236,6 @@ main {
 
 /* common */
 .page {
-    max-width: 800px;
-    line-height: 190%;
     font-family: 'Poppins', sans-serif;
 }
 
