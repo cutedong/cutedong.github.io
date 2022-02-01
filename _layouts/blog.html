@@ -6,15 +6,24 @@
     <main class="post-list">
       {% for post in site.posts %}
         <a href="{{site.url}}{{site.baseurl}}{{post.url}}" class="post">
-            <p>{{post.title}}</p>
-            <div>
-              <small>{{post.date | date_to_string}}</small>
-            {% if post.image %}
-            <img class="thumbnail" src="{{site.url}}{{site.baseurl}}{{post.image}}" alt="" />
-            {% else %}
-            <img class="thumbnail" src="{{site.url}}{{site.baseurl}}/assets/uploads/default.jpg" alt="">
-            {% endif %}
+          {% if post.image %}
+            <div
+              class="thumbnail"
+              style="background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url({{site.url}}{{site.baseurl}}{{post.image}})"
+              alt=""
+            >
+          </div>
+          {% else %}
+            <div
+              class="thumbnail"
+              style="background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url({{site.url}}{{site.baseurl}}/assets/uploads/default.jpg)" alt=""
+            >
             </div>
+          {% endif %}
+          <div class="post-content">
+            <p>{{post.title}}</p>
+            <small>{{post.date | date_to_string}}</small>
+          </div>
         </a>
       {% endfor %}
     </main>
