@@ -1,4 +1,4 @@
 # Đặng Minh Đông
-- Mã nguồn ếch bắt muỗi 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cutedong&layout=compact)](https://github.com/cutedong/cutedong.github.io)
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
