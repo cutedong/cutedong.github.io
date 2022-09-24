@@ -1,4 +1,4 @@
 # Đặng Minh Đông
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [x] Công việc 1
+- [ ] Công việc 2
+- [ ] Công việc 3
